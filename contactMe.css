@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(68,68,68);
+}
+
+#container {
+    width: 1024px;
+    margin: auto;
+    background-image: url("contact_us.jpg");
+}
+
+div {
+    font-family: cursive;
+    font-size: 30px;
+    color: red;
+}
+
+.field {
+    height: 30px;
+    font-size: 25px;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    border-radius: 30%;
+    background-color: red;
+    padding-bottom: 5px;
+}
+
+#comments {
+    width: 300px;
+    height: 110px;
+}
+

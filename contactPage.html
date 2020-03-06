@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contactMe.css">
+  <script src="contactScripts.js"></script>
+  <title>Contact Me</title>
+</head>
+<body>
+  <div id="container">
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="name">Name</label>
+        <input required type="text" name="name" id="name" class="field" placeholder="Your Name" >
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input required type="email" name="email" id="email" class="field" placeholder="Your Email" >
+    </div>
+    <div>
+      <label for="phone">Phone</label>
+      <input required type="tel" name="phone" id="phone" class="field" placeholder="555-555-1212">
+    </div>
+    <div>
+      <label for="date">Birthday Wish?</label>
+      <input type="date" name="date" id="date" class="field" min="1930-06-10" >
+    </div>
+    <div>
+      How did you hear about me?
+      <div>
+        <label for="classmate">Classmate</label>
+        <input type="checkbox" name="classmate" id="classmate">
+      </div>
+      <div>
+        <label for="resume">Resume Submission</label>
+        <input type="checkbox" name="resume" id="resume">
+      </div>
+      <div>
+        <label for="linkedin">LinkedIn</label>
+        <input type="checkbox" name="linkedin" id="linkedin"> 
+      </div>
+      <div>
+        <label for="codingAcademy">Coding Academy Rec</label>
+        <input type="checkbox" name="codingAcademy" id="codingAcademy"> 
+      </div>
+    </div>
+    <div>
+      Would you like to be contacted?
+      <div>
+        <label for="yes">Yes</label>
+        <input type="radio" name="contacted" id="yes" value="yes">
+      </div>
+      <div>
+        <label for="no">No</label>
+        <input type="radio" name="contacted" id="no" value="no">
+      </div>
+    </div>
+    <div>
+      <label for="comments">Message me</label>
+      <textarea id="comments" name="comments" minlength="20" maxlength="500"></textarea>
+    </div>
+    <button id="submit1" type="submit">Submit</button>
+  </form>
+  </div>
+</body>
+</html>
