@@ -17,6 +17,7 @@ div {
 .field {
     height: 30px;
     font-size: 25px;
+    background-color: red;
 }
 
 button {
@@ -34,4 +35,5 @@ button {
     width: 300px;
     height: 110px;
 }
+
 
